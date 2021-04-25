@@ -4,6 +4,7 @@ const { greetingSequenceEnum } = require('../../../helpers/enum');
 const sendTextMessage = require("../../../helpers/sendTextMessage");
 const trainNLP = require("./trainNLP");
 const date = require('date-and-time');
+const emoji = require('node-emoji');
 
 module.exports = class SimpleConversationalUserInterface extends ConversationalUIContract {
     constructor() {
@@ -47,7 +48,7 @@ module.exports = class SimpleConversationalUserInterface extends ConversationalU
 
                         response = `There are ${daysLeft} days left until your next birthday.`;
                     } else if (response === 'special-no') {
-                        response = 'Goodbye!'
+                        response = `Goodbye! ${emoji.get('wave')}`
                     }
                     break;
                 default:
