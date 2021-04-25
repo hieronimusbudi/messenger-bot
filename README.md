@@ -78,7 +78,7 @@ npm run test
 
 ### Chating
 
-If installation process is complete and application is started, user can start to chating on messenger that already connected with this app webhooks url.
+If installation process is complete and application is started, user can start to chatting on messenger that already connected with this app webhooks url.
 
 1. Greeting sequence
 
@@ -87,5 +87,8 @@ If installation process is complete and application is started, user can start t
    ```Javascript
    // Ask Name ==> Ask Birthday ==> Ask if user want to know how many days until his birthday => Give answer if yes and Goodbye if no
    ```
+   
+   ![greeting-yes-sequence](https://user-images.githubusercontent.com/28037175/115990263-70e73e80-a5ec-11eb-884e-f70d10d93d98.gif)
+
 
 2. If user already finished all greeting sequence, user will can chat freely with bot or type `greeting` to start greeting sequence again.
