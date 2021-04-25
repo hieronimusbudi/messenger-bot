@@ -28,7 +28,7 @@ npm install
 }
 ```
 
-5. There is `model.nlp` file as Natural Language Processing file for Bot inside app root folder, if there is no file exists, just start the app normaly using `npm run start` and this file will build automatically using this project dependecies settings at `/src/configs/projectDependencies.js` file. Use `SimpleConversationalUserInterface` in `/src/frameworks/conversationalUI/simple/SimpleConversationalUserInterface.js` as `conversationalUserInterface` to generate `model.nlp` file.
+4. There is `model.nlp` file as Natural Language Processing file for Bot inside app root folder, if there is no file exists, just start the app normaly using `npm run start` and this file will build automatically using this project dependecies settings at `/src/configs/projectDependencies.js` file. Use `SimpleConversationalUserInterface` in `/src/frameworks/conversationalUI/simple/SimpleConversationalUserInterface.js` as `conversationalUserInterface` to generate `model.nlp` file.
 
 ```Javascript
 module.exports = (() => {
@@ -57,7 +57,7 @@ npm run start
    1. If don't have `ngrok` please download at [https://ngrok.com/download](https://ngrok.com/download).
    2. Start the http tunnel on port 3000 using this `./ngrok http 3000` command.
 
-3. Connect app with facebook webhooks settings using verification url at [Here](#app-url-list).
+3. Connect app with Facebook Messenger webhooks settings using verification url at [Here](#app-url-list).
 4. You can test this app using.
 
 ```Javascript
@@ -87,8 +87,7 @@ If installation process is complete and application is started, user can start t
    ```Javascript
    // Ask Name ==> Ask Birthday ==> Ask if user want to know how many days until his birthday => Give answer if yes and Goodbye if no
    ```
-   
-   ![greeting-yes-sequence](https://user-images.githubusercontent.com/28037175/115990263-70e73e80-a5ec-11eb-884e-f70d10d93d98.gif)
 
+   ![greeting-yes-sequence](https://user-images.githubusercontent.com/28037175/115990263-70e73e80-a5ec-11eb-884e-f70d10d93d98.gif)
 
 2. If user already finished all greeting sequence, user will can chat freely with bot or type `greeting` to start greeting sequence again.
