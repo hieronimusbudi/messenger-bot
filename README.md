@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is answer for AdaKerja Messenger Bot Task.
+Messenger Bot Task with train NPL library.
 
 ## How to install
 
