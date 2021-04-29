@@ -2,7 +2,7 @@
 
 ## Overview
 
-Messenger Bot Task with train NPL library.
+Messenger Bot with train NPL library.
 
 ## How to install
 
